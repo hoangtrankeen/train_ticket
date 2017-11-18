@@ -19,47 +19,67 @@
       <li class="header text-center">MAIN NAVIGATION</li>
       <li>
         <a href="{{route('users.index')}}">
-          <i class="fa fa-users" aria-hidden="true"></i> <span>Manage Users</span>
+          <i class="fa fa-users" aria-hidden="true"></i> <span>Người dùng</span>
         </a>
       </li>
       <li>
         <a href="{{route('roles.index')}}">
-          <i class="fa fa-lock" aria-hidden="true"></i> <span>Roles</span>
+          <i class="fa fa-lock" aria-hidden="true"></i> <span>Chức vụ</span>
         </a>
       </li>
       <li>
         <a href="{{route('permissions.index')}}">
-          <i class="fa fa-shield" aria-hidden="true"></i> <span>Permissions</span>
+          <i class="fa fa-shield" aria-hidden="true"></i> <span>Phân quyền</span>
         </a>
       </li>
       <li>
-        <a href="{{route('courses.index')}}">
-          <i class="fa fa-calendar"></i> <span>Courses</span>
+        <a href="{{route('tau.index')}}">
+          <i class="fa fa-calendar"></i> <span>Tàu</span>
         </a>
       </li>
       <li>
-        <a href="{{route('students.index')}}">
-          <i class="fa fa-th"></i> <span>Students</span>
+        <a href="">
+          <i class="fa fa-th"></i> <span>Toa</span>
         </a>
       </li>
       <li>
-        <a href="{{route('menus.index')}}">
-          <i class="fa fa-bars" aria-hidden="true"></i> <span>Menu</span>
+        <a href="">
+          <i class="fa fa-bars" aria-hidden="true"></i> <span>Chỗ ngồi</span>
         </a>
       </li>
       <li>
-        <a href="{{route('categories.index')}}">
-          <i class="fa fa-sitemap" aria-hidden="true"></i> <span>Categories</span>
+        <a href="{{route('hanhtrinh.index')}}">
+          <i class="fa fa-sitemap" aria-hidden="true"></i> <span>Hành Trình</span>
         </a>
       </li>
       <li>
-        <a href="{{route('posts.index')}}">
-          <i class="fa fa-newspaper-o" aria-hidden="true"></i> <span>Posts</span>
+        <a href="">
+          <i class="fa fa-sitemap" aria-hidden="true"></i> <span>Ga</span>
         </a>
       </li>
       <li>
-        <a href="{{route('tags.index')}}">
-          <i class="fa fa-tags" aria-hidden="true"></i> <span>Tags</span>
+        <a href="">
+          <i class="fa fa-newspaper-o" aria-hidden="true"></i> <span>Vé</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fa fa-tags" aria-hidden="true"></i> <span>Khách</span>
+        </a>
+      </li>
+       <li>
+        <a href="">
+          <i class="fa fa-tags" aria-hidden="true"></i> <span>Thống kê</span>
+        </a>
+      </li>
+        <li>
+        <a href="/dashboard/tracuu">
+          <i class="fa fa-tags" aria-hidden="true"></i> <span>Tra Cứu</span>
+        </a>
+      </li>
+        <li>
+        <a href="/dashboard/datve">
+          <i class="fa fa-tags" aria-hidden="true"></i> <span>Form Đặt Vé</span>
         </a>
       </li>
     </ul>

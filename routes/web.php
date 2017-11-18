@@ -30,30 +30,29 @@ Route::prefix('dashboard')->group(function(){
 
 	Route::resource('permissions', 'PermissionController');
 
+	Route::resource('tau', 'TauController');
+
+
+	Route::resource('toa', 'ToaController');
+
+	Route::resource('ghe', 'GheController');
+
+	Route::resource('ve', 'VeController');
+
+	Route::resource('hanhtrinh', 'HanhTrinhController');
+
+	Route::resource('ga', 'GaController');
+
 	//Course
-	Route::resource('/courses', 'CourseController'); 
-	//Students
-	Route::resource('/students', 'StudentController');
+	Route::resource('khach', 'KhachController');
 
+	Route::resource('ve', 'VeController'); 
 
-	//Menus
-	Route::resource('/menus', 'MenuController');
-	//Search post 
-	Route::get('/searchpost','AjaxController@searchPost');
-	//bindmenu
-	Route::get('/bindmenu','AjaxController@bindMenu');
-	//Categories
-	Route::resource('categories','CategoryController');
-	// Route::post('add-category',['as'=>'add.category','uses'=>'CategoryController@addCategory']);
+	Route::resource('thongke', 'ThongKeController'); 
 
-	//Tags
-	Route::resource('tags', 'TagController', array('except'=>['create']));
-	//Posts
-	Route::resource('posts','PostController');
-
-	// Return all posts that related to a Category
-	Route::get('postscat/{cat_id}','PostController@showPostsCat')->name('manage.postscat');
-
+	Route::get('/tracuu', 'DatVeController@tracuu');
+	Route::get('/datve', 'DatVeController@datve');
+	
 
 });	
 
